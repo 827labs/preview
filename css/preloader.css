@@ -1,0 +1,52 @@
+body {
+	margin: 0;
+}
+
+.container {
+	position: absolute;
+	background-color: #222;
+	color: #fff;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+}
+
+.preloader {
+	margin: auto;
+	position: center;
+	height: 30px;
+	width: 360px;
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 2px;
+}
+
+.preloader:before {
+	content: "";
+	position: absolute;
+	background-color: #5AB3E4;
+	width: 0;
+	height: 30px;
+	animation: preloader 10s infinite;
+}
+
+.preloader p {
+	margin: 0;
+	color: white;
+	font-family: 'Open Sans', 'Arial';
+	font-size: 25px;
+	font-weight: bold;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.abrir {
+	transform: translateY(-100%);
+	transition: all 0.5s;
+}
+
+@keyframes preloader {
+	100% {
+		width: 360px;
+	}
+}
