@@ -9,6 +9,7 @@
 }
 
 #loader {
+	background-color: #333;
 	background-image: url(../img/827fondo.jpg);
 	background-size: cover;
 	display: block;
