@@ -98,6 +98,7 @@ header {
 	color: white;
 	transition: 0.3s all ease;
 	opacity: 0.2;
+	cursor: pointer;
 }
 
 #slider .controles > div:hover {
@@ -126,6 +127,7 @@ header {
 
 #slider .indicadores {
 	position: absolute;
+	cursor: pointer;
 	left: calc(50vw - 20px);
 	bottom: 20px;
 }
