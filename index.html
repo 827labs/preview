@@ -31,6 +31,17 @@
 		</span>
 
 		<div id="contenedor">
+			<div class="pre-header">
+				<p>
+					<span id="fecha">Fecha simulada</span>
+					<select id="idioma">
+						<option value="es">Español</option>
+						<option value="en">English</option>
+						<option value="pt">Portuguese</option>
+						<option value="fr">François</option>
+					</select>
+				</p>
+			</div>
 			<header>
 				<div class="menu">
 					<ul class="menu-container">
@@ -38,7 +49,7 @@
 							<a href="http://www.827labs.com"><img id = "logo" src="img/stacked.png" title="827Labs"></a>
 						</div>
 
-						<nav class="menu-items">
+							<nav class="menu-items">
 							<li><a href="#"><img src="img/1.png" title="Inicio"/></a></li>
 							<li><a href="#"><img src="img/2.png" title="Productos"/></a></li>
 							<li><a href="#"><img src="img/3.png" title="SIGBA"/></a></li>
@@ -73,16 +84,56 @@
 
 				</div>
 
-				<div id="correo">
-
-				</div>
+				
 			</section>
-			<div id="pie">
+			<div id="pie"> 
 
+				<footer>
+					<div class="column" id="contacto">
+						<h3>Contacto</h3>
+						<!-- direccion ficticia, despues la cambiamos-->
+						<address id="presencial">
+							Andes 1969 esq. Paraguay <br>
+							11000 Montevideo, Uruguay
+						</address>
+
+						<p id="no-presencial">
+							<span class="linea"><span class="fa fa-phone"> </span> +598 2 908 6969</span>
+							<span class="linea"><span class="fa fa-envelope"></span> <a href="mailto:info@827labs.com">info@827labs.com</a></span>
+						</p>
+					</div>
+
+					<div class="column" id="social-items"> 
+						<h3>Nuestras redes</h3>
+						<ul>
+							<li><a target="_blank" href="https://www.facebook.com/827Labs"><img src="img/facebook.png" title="Facebook"/></a></li>
+	 						<li><a target="_blank" href="https://twitter.com/827Labs"><img src="img/twitter.png" title="Twitter"/></a></li>
+							<li><a target="_blank" href="https://www.instagram.com/827labs/"><img src="img/instagram.png" title="Instagram"/></a></li>
+						</ul>
+					</div>	
+
+					<div class="column" id="acerca-de">
+						<h3>Sobre nosotros</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste repudiandae quia, quidem vero autem, labore tenetur, earum fugit maxime adipisci quibusdam nihil dolorum iure laudantium perferendis numquam. Ut, animi! Enim.</p>
+						<p>Aperiam tempore nesciunt quibusdam sed fugit unde molestias cumque, voluptate laudantium nisi tenetur fuga architecto, ullam necessitatibus neque, incidunt sapiente recusandae quaerat veritatis vel quis sequi cum, quae aut! Nam.</p>
+					</div>
+
+					<div class="full-column">
+						<p id="copyright">&copy; <span id="anio">2017</span> 827Labs S.R.L. – Todos los derechos reservados.</p>
+						<p id="menu-footer">
+							<a href="">Inicio</a>
+							<a href="">Productos</a>
+							<a href="">SIGBA</a>
+							<a href="">Quienes somos</a>
+						</p>
+					</div>
+				</footer>
+					
+				
 			</div>
-		</div>
 
 		<script src="https://code.jquery.com/jquery.min.js"></script>
 		<script src="js/slider.js"></script>
+		<script src="js/fecha.js"></script>
 	</body>
 </html>
