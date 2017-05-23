@@ -58,7 +58,7 @@ $(document).on('ready', function () {
     rellenarCampos();
 
     $('#idioma').on('change', function () {
-        $('#loader').fadeIn('slow');
+        $('#loader').fadeIn();
         setIdiomaActual($(this).val());
         renderComboIdiomas();
         setTimeout(function () {
