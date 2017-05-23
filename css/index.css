@@ -277,6 +277,11 @@ footer .column#social-items li img {
 	line-height: 35px;
 }
 
+.pre-header .inner {
+	width: 1000px;
+	margin: 0 auto;
+}
+
 .pre-header #fecha {
 	margin-left: 20px;
 	font-size: 12px;
@@ -297,7 +302,8 @@ footer .column#social-items li img {
 	background-color: #00588C;
 	display: block;
 	position: relative;
-	width: 100%;
+	width: 1000px;
+	margin: 0 auto;
 	height: 60px;
 	z-index: 1;
 	}

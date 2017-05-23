@@ -25,13 +25,9 @@
 
 		<div id="contenedor">
 			<div class="pre-header">
-				<p>
+				<p class="inner">
 					<span id="fecha">Fecha simulada</span>
 					<select id="idioma">
-						<option value="es">Español</option>
-						<option value="en">English</option>
-						<option value="pt">Portuguese</option>
-						<option value="fr">François</option>
 					</select>
 				</p>
 			</div>
@@ -59,8 +55,8 @@
 				</div>
 
 				<div class="imagenes">
-					<img class="slide" data-img='1' src="img/slider/2.png" alt="" />
-					<img class="slide" data-img='2' src="img/slider/1.png" alt="" />
+					<img class="slide" data-traduccion="slider-2" data-img='1' src="img/slider/2.png" alt="" />
+					<img class="slide" data-traduccion="slider-1" data-img='2' src="img/slider/1.png" alt="" />
 				</div>
 
 				<div class="indicadores">
@@ -83,7 +79,7 @@
 
 				<footer>
 					<div class="column" id="contacto">
-						<h3>Contacto</h3>
+						<h3 data-traduccion="contacto">Contacto</h3>
 						<!-- direccion ficticia, despues la cambiamos-->
 						<address id="presencial">
 							Andes 1969 esq. Paraguay <br>
@@ -97,7 +93,7 @@
 					</div>
 
 					<div class="column" id="social-items"> 
-						<h3>Nuestras redes</h3>
+						<h3 data-traduccion="nuestras-redes">Nuestras redes</h3>
 						<ul>
 							<li><a target="_blank" href="https://www.facebook.com/827Labs"><img src="img/facebook.png" title="Facebook"/></a></li>
 	 						<li><a target="_blank" href="https://twitter.com/827Labs"><img src="img/twitter.png" title="Twitter"/></a></li>
@@ -106,13 +102,13 @@
 					</div>	
 
 					<div class="column" id="acerca-de">
-						<h3>Sobre nosotros</h3>
+						<h3 data-traduccion="sobre-nosotros">Sobre nosotros</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste repudiandae quia, quidem vero autem, labore tenetur, earum fugit maxime adipisci quibusdam nihil dolorum iure laudantium perferendis numquam. Ut, animi! Enim.</p>
 						<p>Aperiam tempore nesciunt quibusdam sed fugit unde molestias cumque, voluptate laudantium nisi tenetur fuga architecto, ullam necessitatibus neque, incidunt sapiente recusandae quaerat veritatis vel quis sequi cum, quae aut! Nam.</p>
 					</div>
 
 					<div class="full-column">
-						<p id="copyright">&copy; <span id="anio">2017</span> 827Labs S.R.L. – Todos los derechos reservados.</p>
+						<p id="copyright" data-traduccion="copyright">&copy; <span id="anio">2017</span> 827Labs S.R.L. – Todos los derechos reservados.</p>
 						<p id="menu-footer">
 							<a href="">Inicio</a>
 							<a href="">Productos</a>
@@ -126,6 +122,8 @@
 			</div>
 
 		<script src="//code.jquery.com/jquery.min.js"></script>
+		<script src="js/idiomas.js"></script>
+		<script src="js/traduccion.js"></script>
 		<script src="js/slider.js"></script>
 		<script src="js/fecha.js"></script>
 		<script type="text/javascript">
