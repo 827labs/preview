@@ -64,7 +64,5 @@ $(document).on('ready', function () {
         setTimeout(function () {
             $("#loader").fadeOut('slow');
         }, 300);
-    })
-
-
+    });
 });
