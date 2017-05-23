@@ -4,6 +4,10 @@
 	font-family: Arial;
 }
 
+body {
+	min-width: 1100px;
+}
+
 #fondo {
 	filter: opacity(0.4);
 }
