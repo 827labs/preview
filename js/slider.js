@@ -8,6 +8,9 @@ function seleccionarSlide(numeroSlide) {
 
     $('.fa-circle[data-img-ind!=' + numeroSlide + ']').removeClass('active')
     $('.fa-circle[data-img-ind=' + numeroSlide + ']').addClass('active')
+    
+    $('.barra').remove();
+    $('#slider').append('<div class="barra"></div>');
 }
 
 function numeroSiguienteSlide() {
