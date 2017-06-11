@@ -10,10 +10,8 @@ var IDIOMAS = {
             'copyright': { html: '&copy; <span id="anio">2017</span> 827Labs S.R.L. – Todos los derechos reservados.' },
             'inicio': { html: 'Inicio', attr: { title: 'Inicio' } },
             'productos': { html: 'Productos', attr: { title: 'Productos' } },
-            'quienes-somos': { html: 'Quienes Somos', attr: { title: 'Quienes Somos' } },
-            'software-gestion-bancaria': { html: 'SOFTWARE DE GESTIÓN BANCARIA' },
-            'destacamos-de-la-competencia': { html: 'Conozca por qué nos<br>destacamos de la competencia' },
-            'mas-informacion': { html: 'Más información' }
+            'quienes-somos': { html: 'Quienes Somos', attr: { title: 'Quienes Somos' } }
+            
         }
     },
     en: {
@@ -27,10 +25,7 @@ var IDIOMAS = {
             'copyright': { html: '&copy; <span id="anio">2017</span> 827Labs S.R.L. – All rights reserved.' },
             'inicio': { html: 'Home', attr: { title: 'Home' } },
             'productos': { html: 'Products', attr: { title: 'Products' } },
-            'quienes-somos': { html: 'About us', attr: { title: 'About us' } },
-            'software-gestion-bancaria': { html: 'BANKING SYSTEM' },
-            'destacamos-de-la-competencia': { html: 'Look at how Sigba can<br>improve your banking workflow' },
-            'mas-informacion': { html: 'Learn more' }
+            'quienes-somos': { html: 'About us', attr: { title: 'About us' } }
         }
     },
     fr: {
@@ -44,10 +39,7 @@ var IDIOMAS = {
             'copyright': { html: '&copy; <span id="anio">2017</span> 827Labs S.R.L. – Tous droits réservés.' },
             'inicio': { html: 'Page principal', attr: { title: 'Page principal' } },
             'productos': { html: 'Produits', attr: { title: 'Produits' } },
-            'quienes-somos': { html: 'Qui sommes nous', attr: { title: 'Qui sommes nous' } },
-            'software-gestion-bancaria': { html: 'LOGICIEL DE GESTION DE LA BANQUE' },
-            'destacamos-de-la-competencia': { html: 'Savez-vous pourquoi nous<br>la concurrence en surbrillance' },
-            'mas-informacion': { html: 'Apprendre encore plus' }
+            'quienes-somos': { html: 'Qui sommes nous', attr: { title: 'Qui sommes nous' } }
         }
     },
     pt: {
@@ -61,10 +53,7 @@ var IDIOMAS = {
             'copyright': { html: '&copy; <span id="anio">2017</span> 827Labs S.R.L. – Todos os direitos reservados.' },
             'inicio': { html: 'Home', attr: { title: 'Home' } },
             'productos': { html: 'Products', attr: { title: 'Products' } },
-            'quienes-somos': { html: 'About us', attr: { title: 'About us' } },
-            'software-gestion-bancaria': { html: 'BANCA DE SOFTWARE DE GESTÃO' },
-            'destacamos-de-la-competencia': { html: 'Saber por que<br>competição destaque' },
-            'mas-informacion': { html: 'Saber mais' }
+            'quienes-somos': { html: 'About us', attr: { title: 'About us' } }
         }
     }
 }
