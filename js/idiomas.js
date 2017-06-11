@@ -13,7 +13,10 @@ var IDIOMAS = {
             'quienes-somos': { html: 'Quienes Somos', attr: { title: 'Quienes Somos' } },
             'software-gestion-bancaria': { html: 'SOFTWARE DE GESTIÓN BANCARIA' },
             'destacamos-de-la-competencia': { html: 'Conozca por qué nos<br>destacamos de la competencia' },
-            'mas-informacion': { html: 'Más información' }
+            'mas-informacion': { html: 'Más información' },
+            'compromiso': { html: 'Compromiso' },
+            'trabajo-en-equipo': { html: 'Trabajo en equipo' },
+            'seguridad': { html: 'Seguridad' }
             
         }
     },
@@ -31,7 +34,10 @@ var IDIOMAS = {
             'quienes-somos': { html: 'About us', attr: { title: 'About us' } },
             'software-gestion-bancaria': { html: 'BANKING SYSTEM' },
             'destacamos-de-la-competencia': { html: 'Look at how Sigba can<br>improve your banking workflow' },
-            'mas-informacion': { html: 'Learn more' }
+            'mas-informacion': { html: 'Learn more' },
+            'compromiso': { html: 'Commitment' },
+            'trabajo-en-equipo': { html: 'Team work' },
+            'seguridad': { html: 'Safety' }
         }
     },
     fr: {
@@ -48,7 +54,10 @@ var IDIOMAS = {
             'quienes-somos': { html: 'Qui sommes nous', attr: { title: 'Qui sommes nous' } },
             'software-gestion-bancaria': { html: 'LOGICIEL DE GESTION DE LA BANQUE' },
             'destacamos-de-la-competencia': { html: 'Savez-vous pourquoi nous<br>la concurrence en surbrillance' },
-            'mas-informacion': { html: 'Apprendre encore plus' }
+            'mas-informacion': { html: 'Apprendre encore plus' },
+            'compromiso': { html: 'Engagement' },
+            'trabajo-en-equipo': { html: 'Travail en équipe' },
+            'seguridad': { html: 'Sécurité' }
         }
     },
     pt: {
@@ -65,7 +74,10 @@ var IDIOMAS = {
             'quienes-somos': { html: 'About us', attr: { title: 'About us' } },
             'software-gestion-bancaria': { html: 'BANCA DE SOFTWARE DE GESTÃO' },
             'destacamos-de-la-competencia': { html: 'Saber por que<br>competição destaque' },
-            'mas-informacion': { html: 'Saber mais' }
+            'mas-informacion': { html: 'Saber mais' },
+            'compromiso': { html: 'Compromisso' },
+            'trabajo-en-equipo': { html: 'Trabalho em equipe' },
+            'seguridad': { html: 'Segurança' }
         }
     }
 }
